@@ -1,0 +1,35 @@
+﻿Build started 1/3/2021 12:47:35 PM.
+     1>Project "C:\Users\96399\Desktop\Project9\Project9\Project9.vcxproj" on node 2 (Rebuild target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Project2.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_DEPRECATE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt 3DTexture.cpp camera.cpp heightMap.cpp Model_3DS.cpp Sound.cpp Source.cpp texture.cpp
+         texture.cpp
+         Source.cpp
+     1>c:\users\96399\desktop\project9\project9\source.cpp(1005): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\96399\desktop\project9\project9\source.cpp(804) : definition of 'i' ignored
+                 c:\users\96399\desktop\project9\project9\source.cpp(786) : definition of 'i' used
+     1>c:\users\96399\desktop\project9\project9\source.cpp(1084): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\96399\desktop\project9\project9\source.cpp(804) : definition of 'i' ignored
+                 c:\users\96399\desktop\project9\project9\source.cpp(786) : definition of 'i' used
+         Sound.cpp
+     1>c:\users\96399\desktop\project9\project9\sound.cpp(8): warning C4101: 'defaultDevice' : unreferenced local variable
+         Model_3DS.cpp
+         heightMap.cpp
+     1>c:\users\96399\desktop\project9\project9\heightmap.cpp(10): warning C4101: 'i' : unreferenced local variable
+         camera.cpp
+         3DTexture.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\96399\Desktop\Project9\Debug\Project9.exe" /INCREMENTAL /NOLOGO alut.lib OpenAL32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\96399\Desktop\Project9\Debug\Project9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\96399\Desktop\Project9\Debug\Project9.lib" /MACHINE:X86 Debug\3DTexture.obj
+         Debug\camera.obj
+         Debug\heightMap.obj
+         Debug\Model_3DS.obj
+         Debug\Sound.obj
+         Debug\Source.obj
+         Debug\texture.obj
+         Project9.vcxproj -> C:\Users\96399\Desktop\Project9\Debug\Project9.exe
+     1>Done Building Project "C:\Users\96399\Desktop\Project9\Project9\Project9.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.99
